@@ -6,6 +6,6 @@ export class SimplePagesPage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('sp-root h1')).getText();
   }
 }
