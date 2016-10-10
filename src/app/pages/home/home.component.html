@@ -1,3 +1,13 @@
-<p>
-  home works!
-</p>
+<div class="jumbotron">
+  <h1>{{jumboTitle}}</h1>
+  <p>{{jumboContent}}</p>
+</div>
+<div class="row">
+  <div class="col-xs-6 col-lg-4" *ngFor="let item of contentList">
+    <h2>{{item.title}}</h2>
+    <p>{{item.content}}</p>
+    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+  </div>
+  <!--/span-->
+</div>
+<!--/row-->
